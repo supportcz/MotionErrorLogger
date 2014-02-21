@@ -88,4 +88,10 @@ PROGRAM _CYCLIC
 	DatObjInfo_0();
 	DatObjMove_0();
 
+	IF step = 0 THEN
+		motionError := 0;
+	ELSE
+		motionError := 1;
+	END_IF
+	
 END_PROGRAM

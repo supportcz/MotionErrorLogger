@@ -26,4 +26,5 @@ END_VAR
 VAR
 	moduleName : STRING[10];
 	str1 : STRING[10];
+	motionError : BOOL;
 END_VAR
