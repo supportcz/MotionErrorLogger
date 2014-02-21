@@ -1,0 +1,29 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: MotionErrorLogger
+ * File: MotionErrorLogger.var
+ * Author: vancurar
+ * Created: November 28, 2013
+ ********************************************************************
+ * Local variables of program MotionErrorLogger
+ ********************************************************************)
+VAR
+	step : INT;
+	MC_BR_AxisErrorCollector_0 : MC_BR_AxisErrorCollector;
+	MC_BR_NetTrace_0 : MC_BR_NetTrace;
+	TON_0 : TON;
+	DatObjInfo_0 : DatObjInfo;
+	DatObjMove_0 : DatObjMove;
+	doIdent : UDINT;
+END_VAR
+VAR RETAIN
+	moduleIndex : USINT;
+END_VAR
+VAR CONSTANT
+	NB_MODULES : USINT := 10;
+END_VAR
+VAR
+	moduleName : STRING[10];
+	str1 : STRING[10];
+END_VAR
